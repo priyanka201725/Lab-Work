@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+    <style>
+        div {
+            margin-top: 3%;
+            margin-bottom: 5%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        
+        img {
+            border: 10px solid;
+            border-color: white;
+            border-radius: 20px;
+        }
+        
+        body {
+            margin: 0px;
+            background-color: skyblue;
+        }
+        
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            padding: 2px;
+            border-spacing: 3px;
+            text-align: left;
+        }
+        
+        .head {
+            text-align: center;
+        }
+        
+        .head1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<table align="left">
+    <form>
+        <tr>
+            <th colspan="2" class="head1">Student Registration Form</th>
+        </tr>
+        <tr>
+            <td>Name: </td>
+            <td><input type="text" name="name" value=""></td>
+        </tr>
+        <tr>
+            <td>Parent's Name: </td>
+            <td><input type="text" name="name" value=""></td>
+        </tr>
+        <tr>
+            <td>Mobile: </td>
+            <td><input type="text" name="mobilenumber" value=""></td>
+        </tr>
+        <tr>
+            <td>Email: </td>
+            <td><input type="email" name="email" value="" placeholder="abc@gmail.com"></td>
+        </tr>
+        <tr>
+            <td>Gender: </td>
+            <td><input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <input type="radio" name="gender" value="Other">Other</td>
+        </tr>
+        <tr>
+            <td>Photo:</td>
+            <td><input type="file" name="Choose files" value="choose files"></td>
+        </tr>
+        <tr>
+            <td>Program: </td>
+            <td><select>
+                <option>--choode program--</option>
+                <option>IT</option>
+                <option>Civil</option>
+                <option>software</option>
+                <option>Computer</option>
+            </select></td>
+        </tr>
+        <tr>
+            <th colspan="2" class="head1">Address Details</th>
+        </tr>
+        <tr>
+            <td>Province:</td>
+            <td><select>
+                <option>--select--</option>
+                <option>Province No.1</option>
+                <option>Province No.2</option>
+                <option>Province No.3</option>
+                <option>Province No.4</option>
+                <option>Province No.5</option>
+                <option>Province No.6</option>
+                <option>Province No.7</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>District:</td>
+            <td><select>
+                <option>--select--</option>
+                <option>Siraha</option>
+                <option>Kathmandu</option>
+                <option>Bhaktapur</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Description:</td>
+            <td><textarea></textarea></td>
+        </tr>
+        <tr>
+            <td><input type="reset" name="reset" value="Clear Form"></td>
+            <td><input type="submit" name="submit" value="submit for sign up"></td>
+        </tr>
+    </form>
+</table>
+<hr>
+<hr>
+<div class="head">
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Priyanka</title>
+    <style>
+        div {
+            margin-top: 1%;
+            margin-bottom: 5%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        
+        img {
+            border: 10px solid;
+            border-color: white;
+            border-radius: 20px;
+        }
+        
+        body {
+            margin: 0px;
+            background-color: grey;
+        }
+        
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            padding: 2px;
+            border-spacing: 3px;
+            text-align: left;
+        }
+        
+        .head {
+            text-align: center;
+        }
+        
+        .head1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+    </div>
+    <table align="left">
+        <form>
+            <tr>
+                <th colspan="2" class="head1">Sign-Up</th>
+            </tr>
+            <tr>
+                <td>First Name: </td>
+                <td><input type="text" name="firstname"></td>
+            </tr>
+            <tr>
+                <td>Last Name: </td>
+                <td><input type="text" name="firstname"></td>
+            </tr>
+            <tr>
+                <td>Password: </td>
+                <td><input type="password" name="password" required=""></td>
+            </tr>
+            <tr>
+                <td>Gender: </td>
+                <td><input type="radio" name="gender" value="Male">Male
+                    <input type="radio" name="gender" value="Female">Female</td>
+            </tr>
+            <tr>
+                <td><input type="reset" name="reset" value="clear form"></td>
+                <td><input type="submit" name="submit" value="Submit for signup form"></td>
+            </tr>
+        </form>
+    </table>
+   </body>
+   </html> 
